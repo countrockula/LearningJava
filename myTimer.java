@@ -6,7 +6,7 @@ public class myTimer	{
 		//Instatiate a Date object
 		Date current_date = new Date();
 		SimpleDateFormat ft = 
-		new SimpleDateFormat ("hh:mm:ss");
+		new SimpleDateFormat ("kk:mm:ss");
 
 		// display time and date using toString()
 		System.out.println(ft.format(current_date));

@@ -17,5 +17,8 @@ public class TestLoop1 {
 			}
 		}
 		System.out.println();
+
+		Dog miko = new Dog();
+		miko.barking();
 	}
 }
