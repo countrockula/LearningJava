@@ -18,7 +18,8 @@ public class TestLoop1 {
 		}
 		System.out.println();
 
-		Dog miko = new Dog();
-		miko.barking();
+		EmployeeInst empTwo = new EmployeeInst("Sarah");
+		empTwo.setSalary(5000);
+		empTwo.printEmp();
 	}
 }
